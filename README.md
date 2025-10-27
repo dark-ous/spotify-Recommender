@@ -10,7 +10,7 @@ This project uses **cosine similarity** to measure how close songs are in featur
 This project analyzes pre-existing audio features from the [`SpotifyFeatures.csv`](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db) dataset (or your own extracted dataset) and recommends songs that are most similar to a given query track.
 
 It’s simple, fast, and fully interpretable — powered by **feature scaling** and **vector similarity**.
-
+## NOTE : This was a weekend project, so I didn’t add major error handling or extensive optimizations.The goal was to explore how audio features and cosine similarity can be used for simple song recommendation without machine learning.
 ---
 
 ## ⚙️ How It Works
@@ -56,5 +56,7 @@ Spotify-Recommender/
 └── README.md # Project documentation
 
 ## Installation
+
 pip install -r requirements.txt
 python main.py 
+
