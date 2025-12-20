@@ -49,7 +49,8 @@ All features are saved into an Excel file (`audio_features.xlsx`), ready for use
 ## 🗂️ Folder Structure
 ```
 Spotify-Recommender/
-├── SpotifyFeatures.csv # Dataset (Kaggle or your own)
+├── data # Dataset (Kaggle or your own)
+│ ├──SpotifyFeatures.csv
 ├── main.py # Main similarity engine
 ├── featureExtractor.py # Audio feature extraction script
 ├── requirements.txt # Python dependencies
